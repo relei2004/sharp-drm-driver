@@ -2,6 +2,21 @@
 
 DRM kernel driver for 2.7" 400x240 Sharp memory LCD panel.
 
+## Hookup Guide
+Connect the following pins:
+
+Display | RasPi
+------- | ---------
+VIN     | 3.3V      
+3V3     | N/C       
+GND     | GND       
+SCLK    | 11 (SCLK) 
+MOSI    | 10 (MOSI) 
+CS      | 8        
+EXTMD   | 3.3V      
+DISP    | 22        
+EXTIN   | 23
+
 ## Installation
 
 Install the Linux kernel headers
